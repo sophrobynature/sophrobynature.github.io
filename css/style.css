@@ -234,6 +234,14 @@ a:focus {
   color: #33cccc;
 }
 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
+
+
 .sub_page .about_section .about_container {
   margin-top: 0;
 }
@@ -242,7 +250,7 @@ a:focus {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  padding: 75px 45px;
+  padding: 55px 55px;
   background-image: url(../images/stones3.png);
   --opacity: 0.20;
   background-size: auto 100%;
@@ -302,6 +310,23 @@ a:focus {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
+.about_section .img-box {
+  margin: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about_section .img-box img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+.about_section .img-box.box-1, .about_section .img-box.box-3 {
+  width: 43%;
+}
+
 
 .product_section .container .containerb {
   display: -webkit-box;
