@@ -4190,6 +4190,7 @@ input[type="button"].btn-block {
 }
 
 .navbar > .container,
+.navbar > .containerb,
 .navbar > .container-fluid {
   display: -ms-flexbox;
   display: flex;
@@ -4275,6 +4276,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
+  .navbar-expand-sm > .containerb,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -4300,6 +4302,7 @@ input[type="button"].btn-block {
     padding-left: 0.5rem;
   }
   .navbar-expand-sm > .container,
+  .navbar-expand-sm > .containerb,
   .navbar-expand-sm > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -4317,6 +4320,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container,
+  .navbar-expand-md > .containerb,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -4342,6 +4346,7 @@ input[type="button"].btn-block {
     padding-left: 0.5rem;
   }
   .navbar-expand-md > .container,
+  .navbar-expand-md > .containerb,
   .navbar-expand-md > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -4359,6 +4364,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
+  .navbar-expand-lg > .containerb,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -4384,6 +4390,7 @@ input[type="button"].btn-block {
     padding-left: 0.5rem;
   }
   .navbar-expand-lg > .container,
+  .navbar-expand-lg > .containerb,
   .navbar-expand-lg > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -4401,6 +4408,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,
+  .navbar-expand-xl > .containerb,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -4426,6 +4434,7 @@ input[type="button"].btn-block {
     padding-left: 0.5rem;
   }
   .navbar-expand-xl > .container,
+  .navbar-expand-xl > .containerb,
   .navbar-expand-xl > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -4449,6 +4458,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-expand > .container,
+.navbar-expand > .containerb,
 .navbar-expand > .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -4469,6 +4479,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-expand > .container,
+.navbar-expand > .containerb,
 .navbar-expand > .container-fluid {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
