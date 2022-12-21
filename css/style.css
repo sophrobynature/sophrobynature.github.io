@@ -227,6 +227,7 @@ a:focus {
   text-transform: uppercase;
 }
 
+
 .hero_section .hero_btn-box a:hover {
   background-color: #ffffff;
   --color: #00ff00;
@@ -330,6 +331,12 @@ a:focus {
   width: 15%;
 }
 
+.img-box.box-6 {
+  width: 40%;
+  padding: 20px;
+  background-position: center;
+}
+
 .product_section .img-box.box-2, .product_section .img-box.box-4 {
   width: 53%;
 }
@@ -429,19 +436,19 @@ a:focus {
   height: 150px;
 }
 
-.contact_section button {
-  background-color: #e92c06;
+.contact_section input.send {
+  background-color: #006699; --#e92c06;
   padding: 15px 55px;
   outline: none;
   border: none;
   border-radius: 30px;
-  border: 1px solid #e92c06;
+  border: 1px solid #006699; --#e92c06;
   color: #fff;
   font-weight: bold;
 }
 
-.contact_section button:hover {
-  color: #e92c06;
+.contact_section input.send:hover {
+  color: #006699; --#e92c06;
   background-color: transparent;
 }
 
@@ -533,7 +540,7 @@ a:focus {
 }
 
 .info_section {
-  background-image: url(../images/Banner-footer-oceanrocks.png);
+  background-image: url(../images/Banner-footer-oceanrocks.png);w
   background-size: cover;
   background-attachment: fixed;
 }
