@@ -275,7 +275,7 @@ a:focus {
     -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.21);
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.21);
 
-    .container {
+    .container .containerb {
       display: flex;
       justify-content: space-between;
 
@@ -307,7 +307,7 @@ a:focus {
 
 // product section
 .product_section {
-  .container {
+  .container .containerb {
     display: flex;
     flex-wrap: wrap;
 
