@@ -343,6 +343,25 @@ a:focus {
     }
   }
 
+  .carousel-indicators {
+    justify-content: flex-end;
+    width: 90%;
+    margin: 0 auto;
+    bottom: 30px;
+
+    li {
+      background-color: #0f0f0f;
+      margin: 0;
+      height: 15px;
+      width: 35px;
+      opacity: 1;
+
+      &.active {
+        background-color: #46a102;
+      }
+    }
+  }
+
   a {
     @include hero_bt($btnColor, $white, 14px, 35px);
     color: #006699; --#3cff3c;
