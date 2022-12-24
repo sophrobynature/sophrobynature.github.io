@@ -386,6 +386,10 @@ a:focus {
   border: 1.5px #33cccc;
 }
 
+.info_section a.c {
+  color: #ffffff;
+}
+
 .product_section a:hover {
   --background-color: #00ff00;
   background-color: #33cccc;
