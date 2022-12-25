@@ -321,6 +321,12 @@ a:focus {
 .about_section .img-box img {
   width: 100%;
   border-radius: 20%;
+  transition: transform 0.25s ease;
+}
+
+.about_section .img-box img:hover {
+    -webkit-transform:scale(2.0); /* or some other value */
+    transform:scale(2.0);
 }
 
 .about_section .img-box.box-1, .about_section .img-box.box-3 {
